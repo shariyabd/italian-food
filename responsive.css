@@ -1,0 +1,556 @@
+
+/*===================================
+navbar section start here
+===================================  */
+@media screen and (max-width:670px) {
+
+    header nav .nav-item{
+        padding-top: 50px;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 70%;
+        height: 100%;
+        background-color: black;
+        text-align: center;
+        display: block;
+        transition: .5s cubic-bezier(0.095, 0.92, 0.175, 1);
+        z-index: 999;
+     }
+     nav .nav-item.active{
+         left: 0;
+     }
+     .side-bar{
+         display: block;
+         z-index: 9999;
+        
+     }
+    
+     .side-bar i.active:before{
+        position: fixed;
+        top: 20px;
+        left: 60%;
+        content: "\f00d";
+        font-size: 30px;
+        font-weight: bold;
+        z-index: 99999;
+        color: white;
+    }
+     
+     header nav .nav-item li{
+        padding: 25px 0px;
+        display: block;
+     
+    }
+    header nav .nav-item li a{
+       color: white;
+    }
+    header nav .nav-item li a:hover{
+        background-color: #ffe001;
+        color: white;
+        transition: .5s;
+    }
+
+
+   
+    
+}
+/*===================================
+navbar section end here
+===================================  */
+
+
+
+
+
+
+
+
+
+/*================================
+ header nav top section start here
+ ===============================  */
+@media screen and (max-width:670px) {
+    header .nav-top{
+        flex-direction: column;
+    }
+    .nav-top .logo{
+        width: 100%;
+        text-align: center;
+        
+        
+    }
+    .nav-top .contact-info{
+        padding: 10px 0px;
+    }
+
+    header .flower img{
+        width: 50%;
+    }
+
+}
+@media screen and (max-width:400px) {
+    .nav-top .contact-info h3{
+      
+        font-size: 15px;
+       
+     }
+     .nav-top .contact-info h1{
+         font-size: 25px;
+      
+     }
+     .nav-top .contact-info .contact-item i{
+         width: 100%;
+         font-size: 50px;
+         
+     }
+
+    header .flower{
+        display: none;
+    }
+     
+}
+@media screen and (max-width:350px){
+    .nav-top .contact-info h3{
+        font-size: 13px;
+       
+     }
+     .nav-top .contact-info h1{
+         font-size: 20px;
+      
+     }
+     .nav-top .contact-info .contact-item i{
+         width: 100%;
+         font-size: 40px;
+         
+     }
+
+     .nav-top .logo img{
+     width: 70%;
+     }
+     header .nav-top{
+        padding: 0px 0px;
+    }
+    header nav .nav-item li a{
+        font-size: 15px;
+     }
+}
+/*================================
+ header nav top section end here
+ ===============================  */
+
+
+
+
+
+
+
+
+/*=====================================
+ home section start here
+ =====================================  */
+
+ @media screen and (max-width:670px){
+   
+    .home-section .home-item .home-info{
+        flex-basis: 100%;
+    
+    }
+ }
+
+@media screen and (max-width:450px){
+
+    .home-section .home-item .home-info{
+       
+        width: 300px;
+        max-width: 300px;
+        margin: 0 auto;
+     
+    
+    }
+    .home-section .home-item .home-info h2{
+        font-size: 40px;
+    }
+    .home-section .home-item .home-info h1{
+        font-size: 65px;
+     
+        
+    }
+    .home-section .home-item .home-info h3{
+        font-size: 16px;
+       
+    }
+
+
+
+    .home-section .home-item .home-info .home-inner {
+      
+        padding-left: 0px;
+        padding-right: 100px;
+       
+    }
+    .home-section .home-item .home-info .home-inner-text{
+        width: 150px;
+    }
+    .home-section .home-item .home-info .home-inner-text span{
+     
+        font-size: 15px;
+    
+    }
+    .home-section .home-item .home-info .home-inner-count{
+        width: 100px;
+    }
+}
+
+
+
+
+@media screen and (max-width:400px){
+    .home-section .home-item .home-info h2{
+        font-size: 30px;
+    }
+    .home-section .home-item .home-info h1{
+        font-size: 45px;
+     
+        
+    }
+    .home-section .home-item .home-info h3{
+        font-size: 14px;
+       
+    }
+    .home-section .home-item .home-info .home-inner-count h1{
+        font-size: 28px;
+    }
+
+    .home-section .home-item .home-info .home-btn a{
+        width: 50px;
+        font-size: 18px;
+        padding: 10px 28px;
+    
+    }
+}
+@media screen and (max-width:350px){
+ 
+     .home-section .home-item .home-info h2{
+        font-size: 25px;
+    }
+    .home-section .home-item .home-info h1{
+        font-size: 40px;
+     
+        
+    }
+    .home-section .home-item .home-info h3{
+        font-size: 14px;
+       
+    }
+    .home-section .home-item .home-info .home-inner-count h1{
+        font-size: 20px;
+    }
+
+    .home-section .home-item .home-info .home-btn a{
+        width: 45px;
+        font-size: 15px;
+        padding: 10px 25px;
+    
+    }
+    .home-section .home-item .home-info{
+        padding: 90px 20px;
+        flex-basis: 100%;
+ 
+
+}
+.home-section .home-item .home-info{
+    width: 50%;
+    text-align: left;
+
+}
+.home-section .home-item .home-info .home-inner {
+    width: 50%;
+  flex-direction: column;
+  padding-left: 60px;
+  margin: 0px auto;
+}
+     
+}
+
+/*===============================
+ home section end here
+ ================================ */
+
+
+
+
+
+
+
+
+
+/*================================
+ menu section start here
+ ==================================  */
+@media screen and (max-width:900px) {
+    .menu-section .menu-body .menu-item{
+        flex-basis: 33%;
+    
+    }
+    .menu-section .menu-body .menu-item .menu-text a{
+        width: 40px;
+        font-size: 15px;
+        padding: 10px 20px;
+    
+    }
+}
+
+@media screen and (max-width:750px){
+    .menu-section .menu-background{
+        top: 370px;
+       
+    }
+    .menu-section .menu-body .menu-item{
+        flex-basis: 45%;
+    
+    }
+     
+}
+@media screen and (max-width:700px){
+    .menu-section .menu-head{
+        width: 80%;
+       
+    }
+    .menu-section .menu-head h1{
+        font-size: 40px;
+        font-weight: 550;
+    }
+    .menu-section .menu-head p{
+        padding-bottom: 17px;
+        line-height: 23px;
+    }
+}
+@media screen and (max-width:600px){
+    .menu-section .menu-body .menu-item{
+        flex-basis: 70%;
+    
+    }
+    .menu-section .menu-background{
+        display: none;
+       
+    }
+}
+
+@media screen and (max-width:450px){
+    .menu-section .menu-body .menu-item{
+        flex-basis: 93%;
+        padding: 20px 20px;
+    
+    }
+    .menu-section .menu-head{
+        width: 90%;
+       
+    }
+    .menu-section .menu-head h1{
+        font-size: 30px;
+        font-weight: 550;
+    }
+    .menu-section .menu-head p{
+        padding-bottom: 17px;
+        line-height: 23px;
+    }
+}
+/*================================
+ menu section end here
+ ==================================  */
+
+
+
+
+
+
+
+
+
+
+/*==========================
+ story section start here 
+============================= */
+@media screen and (max-width:700px){
+    .story-section .story-body .story-item1{
+        width: 100%;
+        height: 400px;
+    }
+   
+    .story-section .story-body .story-item2{
+        width: 100%;
+        height: 400px;
+        box-shadow: none;
+    }
+    .story-section .story-body .story-item3{
+        width: 100%;
+        height: 400px;
+    }
+}
+@media screen and (max-width:500px){
+    .story-section .story-head{
+        width: 90%;
+    }
+
+    .story-section .story-head h2{
+        font-size: 20px;
+        
+    }
+    .story-section .story-head h1{
+        font-size: 30px;
+    }
+   
+}
+
+/*==========================
+ story section end here 
+============================= */
+
+
+
+
+
+
+
+
+
+/*================================
+ gallery section start here
+ ================================  */
+
+@media screen and (max-width:750px){
+
+    .gallery-section{
+        width: 100%;
+        height: auto;
+        padding-top: 150px;
+    }
+    .gallery-section .gallery-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .gallery-section .gallery-item .gallery-img{
+        flex-basis: 90%;
+    
+    }
+    .gallery-section .gallery-item .gallery-img2{
+        flex-basis: 90%;
+        margin-left: 0px;
+        margin-right: 25px;
+       
+    }
+}
+/*================================
+ gallery section end here
+ ================================  */
+
+
+
+
+
+
+
+
+
+/*==============================
+ contact section start here
+ ==============================  */
+
+@media screen and (max-width:500px){
+    .contact-section .contact-head{
+        width: 90%;
+    }
+    .contact-section .contact-head h2{
+        font-size: 18px;
+      
+    }
+    .contact-section .contact-head h1{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:750px){
+    .contact-section .form-body{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:350px){
+    .contact-section .contact-head{
+        width: 100%;
+    }
+    .contact-section .contact-head h2{
+        font-size: 18px;
+      
+    }
+    .contact-section .contact-head h1{
+        font-size: 35px;
+    }
+    .contact-section .form-body{
+        width: 30%;
+    }
+    .contact-section .form-body form input{
+        width: 250px;
+       
+    }
+}
+
+/*==============================
+ contact section end here
+ ==============================  */
+
+
+
+
+
+
+
+
+/*================================
+ footer section start here
+ =================================  */
+@media screen and (max-width:600px){
+    footer .footer-head{
+        width: 100%;
+        padding: 20px 30px;
+    }
+    
+    footer .footer-body{
+        padding: 60px 40px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    footer .footer-body .footer-item2{
+        padding-top: 20px;
+        flex-basis: 100%;
+     
+    }
+}
+@media screen and (max-width:400px){
+    footer .footer-head {
+        width: 95%;
+        margin:  0 auto;
+        padding: 20px 30px;
+    }
+    footer .footer-head  img{
+        width: 100%;
+    }
+    footer .foot-bottom{
+        padding: 60px 30px;
+        flex-direction: column;
+        
+    }
+    footer .foot-bottom .left-item{
+        flex-basis: 80%;
+        padding: 20px 0px;
+    }
+    footer .foot-bottom .right-item{
+        flex-basis: 80%;
+    }
+}
+
+/*================================
+ footer section end here
+ =================================  */

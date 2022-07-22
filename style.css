@@ -1,0 +1,603 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* external font  */
+@font-face {
+    font-family:'Gabelisa';
+    src: url("font/Gabelisa\ Font\ by\ Keithzo\ \(7NTypes\).otf");
+}
+
+
+
+
+
+
+/*===========================
+ header section start here 
+ ========================== */
+header{
+    width: 100%;
+    height: auto;
+    padding: 25px 20px 100px 20px;
+    background: url('img/banner1png.png') no-repeat;
+    background-size: cover;
+}
+
+header .nav-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+}
+
+.nav-top .logo{
+    width: 70px;
+    
+}
+.nav-top .contact-info{
+    display: flex;
+    align-items: center;
+   
+}
+.nav-top .contact-info h3{
+   text-transform: uppercase;
+   font-size: 18px;
+   font-weight: bold;
+   text-align: right;
+   font-family: 'Montserrat', sans-serif;
+}
+.nav-top .contact-info h1{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-top .contact-info .contact-item i{
+    width: 100%;
+    font-size: 60px;
+    padding: 10px 25px;
+}
+
+
+
+
+
+
+
+/*==========================
+ navbar section start here 
+============================ */
+header nav .nav-item{
+   float: right;
+   padding: 0px 20px;
+}
+header nav .nav-item li{
+    list-style: none;
+    display: inline-flex;
+    padding: 10px 10px;
+}
+header nav .nav-item li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+}
+header nav .nav-item li a:hover{
+    background-color: black;
+    color: #ffe001;
+    transition: .5s;
+}
+.side-bar i{
+    font-size: 30px;
+    color: black;
+}
+.side-bar{
+    padding: 0px 15px;
+    float: right;
+    cursor: pointer;
+    display: none;
+   
+}
+
+
+
+
+
+ 
+
+/*==========================
+ navbar section end here 
+============================ */
+
+header .flower{
+    position: absolute;
+    top: 650px;
+    left: 0;
+}
+
+/*===========================
+ header section end here 
+ ========================== */
+
+
+
+
+
+
+
+
+/*==========================
+ home section start here 
+ ========================== */
+.home-section{
+    width: 100%;
+    height: auto;
+    
+}
+.home-section .home-item{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.home-section .home-item .home-info{
+    padding: 90px 10px;
+    flex-basis: 45%;
+    text-align: center;
+
+}
+.home-section .home-item .home-info h2{
+    font-size: 50px;
+    font-weight: 400;
+    font-family:'Gabelisa';
+}
+.home-section .home-item .home-info h1{
+    font-size: 75px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: 'Fredericka the Great', cursive;
+    padding: 15px 0px;
+    text-transform: uppercase;
+    
+}
+.home-section .home-item .home-info h3{
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.home-section .home-item .home-info .home-inner {
+    width: 400px;
+    display: flex;
+    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.home-section .home-item .home-info .home-inner-text{
+    width: 150px;
+}
+.home-section .home-item .home-info .home-inner-text span{
+    display: block;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'Fredericka the Great', cursive;
+}
+.home-section .home-item .home-info .home-inner-count{
+    width: 50px;
+}
+.home-section .home-item .home-info .home-inner-count h1{
+    font-size: 50px;
+    font-family: 'Fredericka the Great', cursive;
+}
+.home-section .home-item .home-info .home-btn{
+    padding: 20px 10px;
+}
+.home-section .home-item .home-info .home-btn a{
+    width: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    border: 1px solid black;
+    padding: 13px 30px;
+
+}
+
+.home-section .home-item .home-info .home-btn a:hover{
+    width: 70px;
+    background-color: black;
+    border: 2px solid yellow;
+    color: white;
+    transition: .6s all ease;
+}
+
+/*==========================
+ home section end here 
+ ========================== */
+
+
+
+
+
+
+
+
+ /*==========================
+ menu section start here 
+ ========================== */
+.menu-section{
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+    position: relative;
+}
+.menu-section .menu-background{
+    position: absolute;
+    top: 290px;
+    left: 0;
+}
+.menu-section .menu-background img{
+    width: 100%;
+}
+.menu-section .menu-head{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 5px;
+}
+.menu-section .menu-head h1{
+    font-size: 50px;
+    font-weight: 550;
+    text-transform: uppercase;
+    padding: 5px 0px;
+    font-family: 'Fredericka the Great', cursive;
+}
+.menu-section .menu-head p{
+    padding-bottom: 20px;
+    line-height: 23px;
+}
+
+.menu-section .menu-body{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-section .menu-body .menu-item{
+    flex-basis: 30%;
+    padding: 20px 35px;
+
+}
+.menu-section .menu-body .menu-item img{
+    width: 100%;
+}
+.menu-section .menu-body .menu-item .menu-text{
+    text-align: center;
+    padding: 10px 0px;
+}
+.menu-section .menu-body .menu-item .menu-text h1{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 0px;
+}
+.menu-section .menu-body .menu-item .menu-text p{
+    padding: 15px 0px;
+    padding-bottom: 35px;
+}
+.menu-section .menu-body .menu-item .menu-text a{
+    width: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    background-color: #ffe001;
+    padding: 13px 30px;
+
+}
+
+.menu-section .menu-body .menu-item .menu-text a:hover{
+    background-color: transparent;
+    border: 1px solid #ffe001;
+    transition: .4s all ease;
+    cursor: pointer;
+
+}
+/*==========================
+ menu section end here 
+ ========================== */
+
+
+
+
+
+
+
+
+
+ /*=======================
+  story section start here 
+ ======================== */
+.story-section{
+    width: 100%;
+    height: auto;
+    padding: 100px 0px 50px 0px;
+
+   
+    
+}
+
+.story-section .story-head{
+    width: 70%;
+    text-align: center;
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+.story-section .story-head h2{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+.story-section .story-head h1{
+    font-size: 50px;
+    font-weight: 550;
+    text-transform: uppercase;
+    padding: 5px 0px;
+    font-family: 'Fredericka the Great', cursive;
+
+
+}
+.story-section .story-head p{
+    padding: 10px;
+    line-height: 22px;
+}
+.story-section .story-body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.story-section .story-body .story-item1{
+    width: 27.5%;
+}
+.story-section .story-body img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+.story-section .story-body .story-item2{
+    width: 45%;
+    box-shadow: 2px 5px 16px rgba(0, 0, 0, 0.775);
+}
+.story-section .story-body .story-item3{
+    width: 27.5%;
+}
+
+ /*=======================
+  story section end here 
+ ======================== */
+
+
+
+
+
+
+
+
+ 
+ /*=======================
+  gallery section start here 
+ ======================== */
+.gallery-section{
+    width: 100%;
+    height: auto;
+    padding-top: 150px;
+}
+.gallery-section .gallery-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.gallery-section .gallery-item .gallery-img{
+    flex-basis: 40.5%;
+
+}
+.gallery-section .gallery-item .gallery-img2{
+    flex-basis: 40%;
+    margin-left: 25px;
+   
+}
+.gallery-section .gallery-item .gallery-img img{
+    width: 100%;
+ 
+}
+.gallery-section .gallery-item .gallery-img2 img{
+    width: 100%;
+    margin: 15px ;
+    
+}
+ /*=======================
+  gallery section end here 
+ ======================== */
+
+
+ 
+
+
+
+
+
+ /*======================
+  contact section start here 
+  ========================*/
+.contact-section{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px 20px 30px 20px;
+
+}
+
+.contact-section .contact-head{
+    width: 80%;
+    text-align: center;
+    padding: 50px 0px;
+    margin: 0 auto;
+}
+.contact-section .contact-head h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.contact-section .contact-head h1{
+    font-size: 50px;
+    font-weight: 550;
+    text-transform: uppercase;
+    padding: 5px 0px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.contact-section .form-body{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-section .form-body form input{
+    width: 300px;
+    height: 50px;
+    margin: 13px;
+    padding: 10px;
+  
+   
+}
+.contact-section .form-body form .btn{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    border: none;
+    background-color: #ffe001;
+    padding: 13px 30px;
+   
+}
+
+.contact-section .form-body form .btn:hover{
+    background-color: transparent;
+    border: 1px solid #ffe001;
+    transition: .4s all ease;
+    cursor: pointer;
+}
+
+ /*======================
+  contact section end here 
+  ========================*/
+
+
+
+
+
+
+
+
+/*======================
+ footer section start here 
+========================*/
+
+footer{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    background: url('img/footer.png') no-repeat;
+    background-size: cover;
+}
+
+footer .footer-head{
+    width: 100%;
+    padding: 20px 90px;
+}
+
+footer .footer-body{
+    padding: 60px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .footer-body .footer-item1{
+    flex-basis: 45%;
+  
+}
+footer .footer-body .footer-item1 p{
+    color: white;
+    line-height: 23px;
+
+}
+footer .footer-body .footer-item2{
+    flex-basis: 35%;
+ 
+}
+
+footer .footer-body .footer-item2 p i{
+    color: #ffe001;
+    font-size: 25px;
+    padding-right: 25px;
+}
+footer .footer-body .footer-item2  p{
+    color: white;
+    line-height: 23px;
+    padding: 8px 0px;
+}
+
+
+footer .foot-bottom{
+    padding: 60px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .foot-bottom .left-item{
+    color: white;
+    flex-basis: 50%;
+}
+footer .foot-bottom .right-item{
+    color: white;
+    flex-basis: 10%;
+}
+footer .foot-bottom .right-item i{
+    color: black;
+    background-color: white;
+    padding: 4px;
+    border-radius: 50%;
+    margin: 2px;
+}
+ /*======================
+  footer section end here 
+  ========================*/
